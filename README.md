@@ -225,7 +225,7 @@ db.query(cypher, {id: 1}, function(err, result) {
     { name: 'Katie', age: 29, id: 3 },
     { name: 'Neil', age: 60, id: 2 }
   ]);
-};
+});
 
 db.queryRaw(cypher, {id: 3}, function(err, result) {
   if (err) throw err;
